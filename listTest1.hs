@@ -1,3 +1,2 @@
-addSmaller y [] = if (null [] == True) || (y < head [])
-              then y:[]
-              else []
+addSmaller y x = if y < head x then y:x
+                    else x
